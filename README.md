@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+NeutraMeds Dashboard is a centralized occupancy and engagement analytics platform built to help organizers:
 
-## Getting Started
+Monitor participation and activity.
+Understand marketing reach and performance
+Gain clear insights into overall engagement trends
+Make faster and better decisions using visual data
+The dashboard converts raw activity data into clear, readable insights.
 
-First, run the development server:
+🎯 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📈 Occupancy Overview
+Track how many users are active, idle, or engaged over time
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📊 Marketing Insights
+Understand which channels or features are driving engagement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧠 Data Visualization Dashboard
+Clean UI with charts, metrics, and summaries for quick understanding
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚡ Real-Time or Near Real-Time Updates
+Helps organizers respond quickly during live events
 
-## Learn More
+🖥️ Admin-Friendly Interface
+Designed specifically for event organizers and decision-makers
 
-To learn more about Next.js, take a look at the following resources:
+🛠️ Tech Stack
+Frontend & Backend: Next.js
+Styling: Tailwind CSS
+Database: Postgresql
+API: google maps
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🧩 How It Works
+User activity and interaction data is collected
+Data is processed and structured on the backend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📈 Impact
 
-## Deploy on Vercel
+Enables data-driven decision making
+Improves marketing strategy effectiveness
+Helps organizers identify drop-offs and high-engagement areas
+Scales easily for future events and larger audiences
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔮 Future Enhancements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔔 Real-time alerts for engagement drops
+🤖 AI-based engagement predictions
+📍 Location-based occupancy tracking
+📤 Exportable reports for post-event analysis
+👥 Role-based admin access
+
+👨‍💻 Team & Contribution
+This project was developed during HackXplore under strict time constraints with a focus on:
+Real-world usability
+Clear data presentation
+Practical event management needs
+
+📄 Disclaimer
+This dashboard is a prototype built for hackathon purposes and demonstrates how occupancy and marketing insights can be visualized effectively. 
