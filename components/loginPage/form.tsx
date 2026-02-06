@@ -31,7 +31,7 @@ export default function Login() {
                 }).then((res) => res.json())
 
                 if(res.valid)
-                    window.location.href ="/profile"
+                    window.location.href ="/dashboard"
 
                 setIsvalid(res.valid)
                 setValidmsg(res.msg)

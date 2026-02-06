@@ -48,7 +48,7 @@ function HomePage() {
                             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-75"></span>
                             <span className="relative inline-flex size-2 rounded-full bg-red-600"></span>
                         </span>
-                        <h1 className="flex text-center items-center gap-1">Join us with the aim towards Growth<ChessRookIcon size={18}/>!!</h1>
+                        <h1 className="flex text-center text-black items-center gap-1">Join us with the aim towards Growth<ChessRookIcon size={18}/>!!</h1>
                     </Link>
                 </Badge>
                 <div className="pt-6 text-green-500">
@@ -64,7 +64,7 @@ function HomePage() {
                         </Link>
                     </Button>
                     <Button className="hover:scale-105">
-                        <Link href={"/explore"} className="flex gap-1 items-center">
+                        <Link href={"https://share.google/K1BYkHidXigZElAlE"} className="flex gap-1 items-center">
                             <h1 className="flex text-xl font-sm items-center text-center gap-2 text-muted" >Explore Our Community <MoveRightIcon className="size-5 relative inset-y-[0.45px] text-[#81fa78]" /></h1>
                         </Link>
                     </Button>
