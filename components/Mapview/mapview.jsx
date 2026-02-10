@@ -4,6 +4,8 @@
 import { GoogleMap, Circle, useLoadScript } from "@react-google-maps/api";
 import { useMemo } from "react";
 import { mapData } from "@/lib/testpoints";
+import dotenv from "dotenv";
+dotenv.config();
 
 const containerStyle = {
     width: "100%",
@@ -12,7 +14,7 @@ const containerStyle = {
 
 export default function MapView({ selectedDate }) {
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: process.dotenv.MAP,
+        googleMapsApiKey: process.env.MAP,
     });
 
     const filteredData = useMemo(() => {
