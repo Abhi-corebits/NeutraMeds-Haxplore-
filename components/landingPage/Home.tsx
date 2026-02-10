@@ -4,7 +4,6 @@ import { Button } from "../ui/button"
 import Link from "next/link"
 import { RocketIcon, UserIcon } from "lucide-react";
 import StatsCard from "./stats-card";
-import Feature from "./feature";
 import About from "./about";
 import Header from "./header";
 import Footer from "./footer";

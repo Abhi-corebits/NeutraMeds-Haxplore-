@@ -1,4 +1,4 @@
-import { AtomIcon, GemIcon, LucideArrowBigUpDash, Sprout, TvIcon } from "lucide-react";
+import { Sprout } from "lucide-react";
 import Fadein from "../ui/fadein";
 
 export default function About() {
