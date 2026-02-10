@@ -4,8 +4,6 @@
 import { GoogleMap, Circle, useLoadScript } from "@react-google-maps/api";
 import { useMemo } from "react";
 import { mapData } from "@/lib/testpoints";
-import dotenv from "dotenv";
-dotenv.config();
 
 const containerStyle = {
     width: "100%",
