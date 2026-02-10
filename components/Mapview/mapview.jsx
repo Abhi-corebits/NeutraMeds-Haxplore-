@@ -12,7 +12,7 @@ const containerStyle = {
 
 export default function MapView({ selectedDate }) {
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey:process.env.MAP,
+        googleMapsApiKey: process.dotenv.MAP,
     });
 
     const filteredData = useMemo(() => {

@@ -1,5 +1,7 @@
 NeutraMeds Dashboard is a centralized occupancy and engagement analytics platform built to help organizers:
 
+Video Link- https://drive.google.com/file/d/125yxr6-blWDxRarJhIrJrfcjbEbwtuIc/view?usp=sharing
+
 Monitor participation and activity.
 Understand marketing reach and performance
 Gain clear insights into overall engagement trends
